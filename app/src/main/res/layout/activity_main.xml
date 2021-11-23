@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="340dp"
+        android:layout_height="340dp">
+
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_circle"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circle_border" />
+
+
+    <ImageButton
+
+        android:id="@+id/ib_a"
+        android:layout_alignParentTop="true"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button_shadow"
+        android:checked="false"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/tv_a"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:text="A"
+            android:checked="false"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+
+        <ImageButton
+
+            android:id="@+id/ib_b"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button_shadow"
+            android:checked="false"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/tv_b"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="4dp"
+            android:text="B"
+            android:checked="false"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+
+        <ImageButton
+
+            android:id="@+id/ib_c"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginBottom="57dp"
+            android:background="@drawable/button_shadow"
+            android:checked="false"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/tv_c"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginBottom="65dp"
+            android:text="C"
+            android:checked="false"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>
